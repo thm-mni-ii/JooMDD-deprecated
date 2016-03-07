@@ -2,7 +2,7 @@
 <plugins>
 	<plugin
 		id="de.thm.icampus.joomdd.ejsl.idea"
-		url="C:\Users\Dennis\git\joomdd_repo\development\de.thm.icampus.joomdd.ejsl.parent\de.thm.icampus.joomdd.ejsl.idea\build/ideaRepository/de.thm.icampus.joomdd.ejsl.idea-0.2.1.zip"
+		url="https://raw.githubusercontent.com/icampus/JooMDD/master/IntelliJ/ideaRepository/de.thm.icampus.joomdd.ejsl.idea-0.2.1.zip"
 		version="0.2.1"
 		name="JooMDD - eJSL Editor"
 		description="This plugin allows the creation of eJSL models and generates installable Joomla 3.x extensions."
