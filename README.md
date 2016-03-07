@@ -6,6 +6,8 @@ The current version of JooMDD can be used within ***Eclipse***,
 ***IntelliJ IDEA***, and ***PHPStorm***.
 
 In addition, we provide **jext2eJSL** to create eJSL-based models based on existing Joomla 3.x extension packages.
+We are currently working on the documentation of jext2eJSL. If you are interested in using the tool, see the current (german) 
+documentation [here](https://wiki.thm.de/Reverse-Engineering_(Joomla-Code_zu_eJSL-Instanzmodell)).
 
 ***
 ## Installation of JooMDD ##
