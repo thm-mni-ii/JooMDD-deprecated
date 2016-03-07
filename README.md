@@ -16,14 +16,14 @@ Please follow this installation guide to use JooMDD within Eclipse, IntelliJ, an
 Install the JooMDD tools through the use of the following update site within the Eclipse update manager. Supported versions are:
 *Kepler*, *Luna*, and *Mars*.
 
-#### JooMDD update site (Eclipse): <http://icampus.thm.de/JooMDDUpdateSite_Eclipse> ####
+#### JooMDD update site (Eclipse): <https://raw.githubusercontent.com/icampus/JooMDD/master/Eclipse/JooMDDUpdateSite/site.xml> ####
 ### IntelliJ IDEA ###
 Install the JooMDD tools through the use of the following update site within IntelliJ's plugin manager. The currently supported 
 (tested)version is IntelliJ IDEA 15. Please feel free to try JooMDD within other IntelliJ versions.
 #### Precondition: ####
 Install Xtext IDEA Core from the repositories of IntelliJ. (In IntelliJ go to: File/Settings/Plugins/Browse Repositories search: "Xtext Idea Core" and install the plugin)
 
-#### JooMDD update site (IntelliJ IDEA): <http://icampus.thm.de/JooMDDUpdateSite_IntelliJ> ####
+#### JooMDD update site (IntelliJ IDEA): <https://raw.githubusercontent.com/icampus/JooMDD/master/IntelliJ/ideaRepository/updatePlugins.xml> ####
 
 Alternatively you can download the plugins from this repository and install them manually into your IDE.
 
@@ -38,9 +38,6 @@ PHPStorm 10.0.3, Download of some files (includes configurated Xtext and the EJS
 *	Copy IntelliJdepencies.jar into path: PHPStorm installation\lib\  .
 *	Now install the two downloaded plugins (Xtext and EJSL) via "Install plugin from disk ..." (Menu: File/Settings/Plugins/).
 
-#### Add the language to your Project: ####
-
-### Orion ###
 
 ***
 ## Getting Started ##
