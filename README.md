@@ -34,12 +34,11 @@ Due to the fact, that the PHPStorm support is in a kind of beta state, you need 
 be scared, it's just copy&paste of some files ;-). Please ensure, that you have the latest version of PHPStorm installed. We tested 
 the following instructions with version 10.0.3.
 #### Precondition: ####
-PHPStorm 10.0.3, Download of some files (includes configurated Xtext and the EJSL language) here: ...
+PHPStorm 10.0.3, copy IntelliJdepencies.jar into path: PHPStorm installation\lib\ (only first time).
 
-#### Prepare PHPStorm (only first time): ####
-*	Copy IntelliJdepencies.jar into path: PHPStorm installation\lib\  .
-*	Now install the two downloaded plugins (Xtext and EJSL) via "Install plugin from disk ..." (Menu: File/Settings/Plugins/).
+#### JooMDD update site (PHPStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml> ####
 
+Alternatively you can download the plugins from this repository and install them manually into your IDE.
 
 ***
 ## Getting Started ##
