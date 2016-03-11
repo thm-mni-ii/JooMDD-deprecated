@@ -90,7 +90,7 @@ is created within the src folder which can be used for a straightforward introdu
 <img src="img/ij_pw_3.png" alt="IntelliJ IDEA Wizard 3" height="300" style="max-width:100%;float:right;">
 
 ##### PHPStorm #####
-We are currently working on the project wizard for PHPStorm
+The documentation is coming soon. Using the project wizard in PHPStorm is almost similar to IntelliJ.
 
 ### 2. Create a model ###
 eJSL allows you the definition of different parts of a Joomla extension. Starting with the definition 
