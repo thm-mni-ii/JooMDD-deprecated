@@ -2,7 +2,7 @@
 <plugins>
 	<plugin
 		id="de.thm.icampus.joomdd.ejsl.idea"
-		url="https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/de.thm.icampus.joomdd.ejsl.idea-0.2.3.zip"
+		url="https://raw.githubusercontent.com/icampus/JooMDD/master/IntelliJ/ideaRepository/de.thm.icampus.joomdd.ejsl.idea-0.2.3.zip"
 		version="0.2.3"
 	/>
 </plugins>
