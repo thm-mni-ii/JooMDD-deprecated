@@ -3,7 +3,7 @@
 **JooMDD** provides a set of plugins for a model-driven development of Joomla! extension 
 packages. 
 The current version of JooMDD can be used within ***Eclipse***, 
-***IntelliJ IDEA***, and ***PHPStorm***.
+***IntelliJ IDEA***, and ***PhpStorm***.
 
 In addition, we provide **jext2eJSL** to create eJSL-based models based on existing Joomla 3.x extension packages.
 We are currently working on the documentation of jext2eJSL. If you are interested in using the tool, see the current (german) 
@@ -11,9 +11,9 @@ documentation [here](https://wiki.thm.de/Reverse-Engineering_(Joomla-Code_zu_eJS
 
 ***
 ## Installation of JooMDD ##
-Please follow this installation guide to use JooMDD within Eclipse, IntelliJ, and PHPStorm. 
+Please follow this installation guide to use JooMDD within Eclipse, IntelliJ, and PhpStorm. 
 
-**Attention:** The support of PHPStorm is currently experimental. Therefore some effort is needed during the installation
+**Attention:** The support of PhpStorm is currently experimental. Therefore some effort is needed during the installation
 ### Eclipse ###
 Install the JooMDD tools through the use of the following update site within the Eclipse update manager. Supported versions are:
 *Kepler*, *Luna*, and *Mars*.
@@ -29,14 +29,14 @@ Install Xtext IDEA Core from the repositories of IntelliJ. (In IntelliJ go to: F
 
 Alternatively you can download the plugins from this repository and install them manually into your IDE.
 
-### PHPStorm ###
-Due to the fact, that the PHPStorm support is in a kind of beta state, you need some more effort for the installation. But don't 
-be scared, it's just copy&paste of some files ;-). Please ensure, that you have the latest version of PHPStorm installed. We tested 
+### PhpStorm ###
+Due to the fact, that the PhpStorm support is in a kind of beta state, you need some more effort for the installation. But don't 
+be scared, it's just copy&paste of some files ;-). Please ensure, that you have the latest version of PhpStorm installed. We tested 
 the following instructions with version 10.0.3.
 #### Precondition: ####
-PHPStorm 10.0.3, copy IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016 (PhpStorm2016) into path: PHPStorm installation\lib\ (only first time).
+PhpStorm 10.0.3, copy IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016 (PhpStorm2016) into path: PhpStorm installation\lib\ (only first time).
 
-#### JooMDD update site (PHPStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml> ####
+#### JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PhpStorm/ideaRepository/updatePlugins.xml> ####
 
 Alternatively you can download the plugins from this repository and install them manually into your IDE.
 
@@ -54,7 +54,7 @@ Please make sure, that you've installed the eJSL part of JooMDD to follow the ne
 ### 1. Create a new eJSL project ###
 There are two ways to create an eJSL project:
 
-#### Manual project creation (works for Eclipse, IntelliJ IDEA, and PHPStorm): ####
+#### Manual project creation (works for Eclipse, IntelliJ IDEA, and PhpStorm): ####
 1. Create a new project of any type (e.g. a general, Java, or PHP project)
 2. Create a new file of any name with the ending .eJSL (e.g. *model.eJSL*)
 3. Start creating your model containing entities, pages, and extensions
@@ -89,7 +89,7 @@ is created within the src folder which can be used for a straightforward introdu
 
 <img src="img/ij_pw_3.png" alt="IntelliJ IDEA Wizard 3" height="300" style="max-width:100%;float:right;">
 
-##### PHPStorm #####
+##### PhpStorm #####
 Create a new project and within the "new Project" dialogue click on the *eJSL* section.
 
 <img src="img/php_pw_1.png" alt="PhpStorm Project Wizard" height="300" style="max-width:100%;float:right;">
