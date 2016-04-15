@@ -36,7 +36,7 @@ the following instructions with version 10.0.3.
 #### Precondition: ####
 PhpStorm 10.0.3, copy IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016 (PhpStorm2016) into path: PhpStorm installation\lib\ (only first time).
 
-#### JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PhpStorm/ideaRepository/updatePlugins.xml> ####
+#### JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml> ####
 
 Alternatively you can download the plugins from this repository and install them manually into your IDE.
 
