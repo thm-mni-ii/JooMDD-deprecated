@@ -658,12 +658,9 @@ function setDocumentScrollTop(ypos)
 <h3> <a id="user-content-phpstorm" class="anchor" href="#phpstorm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PHPStorm</h3> 
 <p>Due to the fact, that the PHPStorm support is in a kind of beta state, you need some more effort for the installation. But don't be scared, it's just copy&amp;paste of some files ;-). Please ensure, that you have the latest version of PHPStorm installed. We tested the following instructions with version 10.0.3.</p> 
 <h4> <a id="user-content-precondition-1" class="anchor" href="#precondition-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Precondition:</h4> 
-<p>PHPStorm 10.0.3, Download of some files (includes configurated Xtext and the EJSL language) here: ...</p> 
-<h4> <a id="user-content-prepare-phpstorm-only-first-time" class="anchor" href="#prepare-phpstorm-only-first-time" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prepare PHPStorm (only first time):</h4> 
-<ul> 
- <li> Copy IntelliJdepencies.jar into path: PHPStorm installation\lib\ .</li> 
- <li> Now install the two downloaded plugins (Xtext and EJSL) via &quot;Install plugin from disk ...&quot; (Menu: File/Settings/Plugins/).</li> 
-</ul> 
+<p>PHPStorm 10.0.3, copy IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016 (PhpStorm2016) into path: PHPStorm installation\lib\ (only first time).</p> 
+<h4> <a id="user-content-joomdd-update-site-phpstorm-httpsrawgithubusercontentcomicampusjoomddmasterphpstormidearepositoryupdatepluginsxml" class="anchor" href="#joomdd-update-site-phpstorm-httpsrawgithubusercontentcomicampusjoomddmasterphpstormidearepositoryupdatepluginsxml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JooMDD update site (PHPStorm): <a href="https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml">https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml</a> </h4> 
+<p>Alternatively you can download the plugins from this repository and install them manually into your IDE.</p> 
 <hr /> 
 <h2> <a id="user-content-getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h2> 
 <h3> <a id="user-content-the-ejsl-language" class="anchor" href="#the-ejsl-language" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The eJSL language</h3> 
@@ -691,14 +688,17 @@ function setDocumentScrollTop(ypos)
 <p>Select a model example template and subsequently give you project a name. Through a click on the Finish-Button the required project structure becomes generated containing source folders for your models (<em>src</em>) and for the code generated based on your models (<em>src-gen</em>). The chosen example model is created within the src folder which can be used for a straightforward introduction.</p> 
 <p><a href="img/ij_pw_3.png" target="_blank"><img src="img/ij_pw_3.png" alt="IntelliJ IDEA Wizard 3" height="300" style="max-width:100%;" /></a></p> 
 <h5> <a id="user-content-phpstorm-1" class="anchor" href="#phpstorm-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PHPStorm</h5> 
-<p>We are currently working on the project wizard for PHPStorm</p> 
+<p>Create a new project and within the &quot;new Project&quot; dialogue click on the <em>eJSL</em> section.</p> 
+<p><a href="img/php_pw_1.png" target="_blank"><img src="img/php_pw_1.png" alt="PhpStorm Project Wizard" height="300" style="max-width:100%;" /></a></p> 
+<p>Select a model example template and subsequently give you project a name. Through a click on the create-Button the required project structure becomes generated containing source folders for your models (<em>src</em>) and for the code generated based on your models (<em>src-gen</em>). The chosen example model is created within the src folder which can be used for a straightforward introduction.</p> 
+<p><a href="img/php_pw_2.png" target="_blank"><img src="img/php_pw_2.png" alt="PhpStorm Project Wizard 2" height="300" style="max-width:100%;" /></a></p> 
 <h3> <a id="user-content-2-create-a-model" class="anchor" href="#2-create-a-model" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Create a model</h3> 
 <p>eJSL allows you the definition of different parts of a Joomla extension. Starting with the definition of a data structure (<strong><em>entities</em></strong>) on to its presentation (<strong><em>pages</em></strong>) up to the specification of Joomla-specific <strong><em>extensions</em></strong>.</p> 
 <p>While using the text-based editor you get support by the code completion typing <strong><em>Ctrl + Space</em></strong>.</p> 
 <p>For an easier start we recommend the use of the example instances, provided by the project wizards. </p> 
 <h3> <a id="user-content-3-code-generation" class="anchor" href="#3-code-generation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Code generation</h3> 
 <p>When you save your model, the code generator creates your modelled Joomla extensions within the project's src-gen folder. The extensions are installable within Joomla 3.x web sites and don't need any additional line of code. However, if you know what you do, you can extend the generated code through individual features. But beware: All the code within the src-gen folder becomes COMPLETELY overwritten, when you change your model and save it. Therefore we recommend to copy generated extensions to another folder within your project, where you can extend them without loosing them after a new code generation. Another and cleaner option is using a versioning tool like git to store your individual added code.</p> 
-<p><strong>Note:</strong> Our tools are completely prototypical and we are currently working on the generator structure.</p> 
+<p><strong>Note:</strong> Our tools are completly prototypical and we are currently working on the generator structure.</p> 
 <hr /> 
 <h2> <a id="user-content-copyright" class="anchor" href="#copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright</h2> 
 <p>Copyright (C) 2013 - 2016, <a href="http://icampus.thm.de">iCampus</a> - <a href="http://www.thm.de">Technische Hochschule Mittelhessen</a>. All rights reserved. This project is distributed under the GPL (GNU General Public License) version 2. For further information see the <a href="https://git.thm.de/JooMDD/joomdd_repo/blob/master/LICENSE">License details</a>.</p> 

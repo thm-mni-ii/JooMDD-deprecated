@@ -34,7 +34,7 @@ Due to the fact, that the PHPStorm support is in a kind of beta state, you need 
 be scared, it's just copy&paste of some files ;-). Please ensure, that you have the latest version of PHPStorm installed. We tested 
 the following instructions with version 10.0.3.
 #### Precondition: ####
-PHPStorm 10.0.3, copy IntelliJdepencies.jar into path: PHPStorm installation\lib\ (only first time).
+PHPStorm 10.0.3, copy IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016 (PhpStorm2016) into path: PHPStorm installation\lib\ (only first time).
 
 #### JooMDD update site (PHPStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml> ####
 
