@@ -39,7 +39,7 @@ the following instructions with version 10.0.3 and 2016.1.
 #### Precondition: ####
 **Step 1:** Download and install Xtext IDEA Core (org.eclipse.xtext.idea-2.9.2.zip) from this repository via PhpStorm (File->Settings->Plugins).
 
-**Step2:** Download IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016.x.jar (PhpStorm2016) and copy it into the lib path of your PhpStorm installation (<PhpStorm installation>\lib\ ). This must be done only once.
+**Step2:** Download IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016.x.jar (PhpStorm2016) and copy it into the lib path of your PhpStorm installation (^PhpStorm installation^\lib\ ). This must be done only once.
 
 **Step 3:** Install the eJSL Plugin via the repositories manager using the following PhpStorm update site.
 
