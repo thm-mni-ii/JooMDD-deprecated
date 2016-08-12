@@ -13,39 +13,49 @@ documentation [here](https://wiki.thm.de/Reverse-Engineering_(Joomla-Code_zu_eJS
 ## Installation of JooMDD ##
 Please follow this installation guide to use JooMDD within Eclipse, IntelliJ, and PhpStorm. 
 
-**Attention:** The support of PhpStorm is currently experimental. Therefore some effort is needed during the installation
 ### Eclipse ###
 Install the JooMDD tools through the use of the following update site within the Eclipse update manager. Supported versions are:
-*Kepler*, *Luna*, and *Mars*.
+*Kepler*, *Luna*, *Mars*, and *Neon*. 
 
-#### JooMDD update site (Eclipse): <https://raw.githubusercontent.com/icampus/JooMDD/master/Eclipse/JooMDDUpdateSite/site.xml> ####
+JooMDD update site (Eclipse): <https://raw.githubusercontent.com/icampus/JooMDD/master/Eclipse/JooMDDUpdateSite/site.xml>
+<br/><br/>
 ### IntelliJ IDEA ###
 Install the JooMDD tools through the use of the following update site within IntelliJ's plugin manager. The currently supported 
-(tested)version is IntelliJ IDEA 15 and 2016. Please feel free to try JooMDD within other IntelliJ versions.
-#### Precondition: ####
-**Step 1**: Install Xtext IDEA Core (org.eclipse.xtext.idea-2.9.2) from the repositories of IntelliJ. (In IntelliJ go to: File/Settings/Plugins/Browse Repositories search: "Xtext Idea Core" and install the plugin).
-*Alternatively* you can download the raw zip file (org.eclipse.xtext.idea-2.9.2.zip) which can be found in the IntelliJ folder within this repository.
+(tested) version is IntelliJ IDEA 16. Please feel free to try JooMDD within other IntelliJ versions. As a precondition you have to install
+the Xtext IDEA Core from the IntelliJ repositories.
+#### Installation steps: ####
+1. Install Xtext IDEA Core from the repositories of IntelliJ. (In IntelliJ go to: File/Settings/Plugins/Browse Repositories search: "Xtext 
+Idea Core" and install the plugin).
+2. Install the JooMDD plugin in the same way via the following JooMDD update site (alternatively you can download the plugins from this 
+repository and install them manually into your IDE.):
+JooMDD update site (IntelliJ IDEA): <https://raw.githubusercontent.com/icampus/JooMDD/master/IntelliJ/ideaRepository/updatePlugins.xml>.
+3. Restart IntelliJ.
+<br/><br/>
 
-**Step 2:** Install the eJSL Plugin via the repositories manager using the following IntelliJ IDEA update site.
-
-#### JooMDD update site (IntelliJ IDEA): <https://raw.githubusercontent.com/icampus/JooMDD/master/IntelliJ/ideaRepository/updatePlugins.xml> ####
-
-*Alternatively* you can download the plugins from this repository and install them manually into your IDE.
-
-### PhpStorm ###
+### PhpStorm 10###
 Due to the fact, that the PhpStorm support is in a kind of beta state, you need some more effort for the installation. But don't 
 be scared, it's just copy&paste of some files ;-). Please ensure, that you have the latest version of PhpStorm installed. We tested 
-the following instructions with version 10.0.3 and 2016.1.
-#### Precondition: ####
-**Step 1:** Download and install Xtext IDEA Core (org.eclipse.xtext.idea-2.9.2.zip) from this repository via PhpStorm (File->Settings->Plugins).
+the following instructions with version 10.0.3.
+#### Installation steps: ####
+1. Download *[org.eclipse.xtext.idea-2.9.2.zip (Xtext IDEA Core)](https://github.com/icampus/JooMDD/raw/master/PHPStorm/xtext_plugin/PhpStorm10/org.eclipse.xtext.idea-2.9.2.zip)* 
+and *[IntelliJdepencies10.0.3.jar](https://github.com/icampus/JooMDD/raw/master/PHPStorm/xtext_plugin/PhpStorm10/IntelliJdepencies10.0.3.jar)* from our repository 
+(the files are within the *PhpStorm* folder).
+2. Copy *IntelliJdepencies10.0.3.jar* into your PhpStorm installation folder: *\<PhpStorm installation\>\lib\*
+3. Install *Xtext IDEA Core* in PhpStorm via *"Install plugin from disk..."*.
+4. Install the JooMDD plugin from our repository using the following JooMDD update site (alternatively you can download the plugins from 
+this repository and install them manually into your IDE):
+JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml>.
+5. Restart PhpStorm.
+<br/><br/>
 
-**Step2:** Download IntelliJdepencies10.0.3.jar (PhpStorm 10) or IntelliJdependencies2016.x.jar (PhpStorm2016) and copy it into the lib path of your PhpStorm installation (^PhpStorm installation^\lib\ ). This must be done only once.
-
-**Step 3:** Install the eJSL Plugin via the repositories manager using the following PhpStorm update site.
-
-#### JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml> ####
-
-*Alternatively* you can download the plugins from this repository and install them manually into your IDE.
+### PhpStorm 16###
+We tested the following instructions with version 16.2.
+#### Installation steps: ####
+1. Download *[xtext.idea-2.9.2withdependencies2016.1.2-.zip (Xtext IDEA Core with IntelliJ dependencies)](https://github.com/icampus/JooMDD/raw/master/PHPStorm/xtext_plugin/PhpStorm16/xtext.idea-2.9.2withdependencies2016.1.2-.zip)* from our repository (the files are within the *PhpStorm* folder).
+3. Install *Xtext IDEA Core* in PhpStorm via *"Install plugin from disk..."*.
+4. Install the JooMDD plugin from our repository using the following JooMDD update site (alternatively you can download the plugins from this repository and install them manually into your IDE):
+JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/updatePlugins.xml>.
+5. Restart PhpStorm.
 
 ***
 ## Getting Started ##
