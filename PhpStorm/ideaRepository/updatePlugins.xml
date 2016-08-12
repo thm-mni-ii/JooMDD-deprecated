@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
 	<plugin
+		name="JooMDD"
 		id="de.thm.icampus.joomdd.ejsl.phpstorm"
-		url="https://raw.githubusercontent.com/icampus/JooMDD/master/PHPStorm/ideaRepository/de.thm.icampus.joomdd.ejsl.phpstorm-0.3.0.zip"
+		url="https://raw.githubusercontent.com/icampus/JooMDD/master/PhpStorm/ideaRepository/de.thm.icampus.joomdd.ejsl.phpstorm-0.3.0.zip"
 		version="0.3.0"
 	/>
 </plugins>
