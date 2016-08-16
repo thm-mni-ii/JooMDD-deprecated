@@ -51,11 +51,9 @@ JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD
 ### PhpStorm 16###
 We tested the following instructions with version 16.2.
 #### Installation steps: ####
-1. Download *[xtext.idea-2.9.2withdependencies2016.1.2-.zip (Xtext IDEA Core with IntelliJ dependencies)](https://github.com/icampus/JooMDD/raw/master/PhpStorm/xtext_plugin/PhpStorm16/Xtext.idea-2.10.0WithDependencies2016.1.2-.zip)* from our repository (the files are within the *PhpStorm* folder).
-3. Install *Xtext IDEA Core* in PhpStorm via *"Install plugin from disk..."*.
-4. Install the JooMDD plugin from our repository using the following JooMDD update site (alternatively you can download the plugins from this repository and install them manually into your IDE):
+1. Install the *Xtext IDEA Core* and JooMDD plugin from our repository using the following JooMDD update site (alternatively you can download the plugins from this repository and install them manually into your IDE):
 JooMDD update site (PhpStorm): <https://raw.githubusercontent.com/icampus/JooMDD/master/PhpStorm/ideaRepository/updatePlugins.xml>.
-5. Restart PhpStorm.
+2. Restart PhpStorm.
 
 ***
 ## Getting Started ##
