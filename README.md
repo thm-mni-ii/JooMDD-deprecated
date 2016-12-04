@@ -145,4 +145,4 @@ This project is distributed under the GPL (GNU General Public License) version 2
 the [License details](https://git.thm.de/JooMDD/joomdd_repo/blob/master/LICENSE).
 
 ***
-Please feel free to [contact](icampu@lists.thm.de) us, if you find some bugs or if you like to contribute to the project.
+Please feel free to [contact](icampus@lists.thm.de) us, if you find some bugs or if you like to contribute to the project.
