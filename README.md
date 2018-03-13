@@ -148,7 +148,7 @@ versioning tool like git to store your individual added code.
 
 ***
 ## Copyright ##
-Copyright (C) 2013 - 2016, [iCampus](http://icampus.thm.de) - [Technische Hochschule Mittelhessen](http://www.thm.de). 
+Copyright (C) 2013 - 2018, [iCampus](http://icampus.thm.de) - [Technische Hochschule Mittelhessen](http://www.thm.de). 
 All rights reserved.
 This project is distributed under the GPL (GNU General Public License) version 2. For further information see 
 the [License details](https://git.thm.de/JooMDD/joomdd_repo/blob/master/LICENSE).
