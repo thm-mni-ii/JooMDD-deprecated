@@ -1,4 +1,0 @@
-<plugins>
-  <plugin name="JooMDD" id="de.thm.icampus.joomdd.ejsl.phpstorm" url="https://raw.githubusercontent.com/icampus/JooMDD/master/PhpStorm/ideaRepository/de.thm.icampus.joomdd.ejsl.phpstorm-0.7.0.zip" version="0.7.0"/>
-  <plugin name="Xtext IDEA Core" id="org.eclipse.xtext.idea" url="https://raw.githubusercontent.com/icampus/JooMDD/master/PhpStorm/xtext_plugin/PhpStorm16/Xtext.idea-2.10.0WithDependencies2016.1.2-.zip" version="2.10.0"/>
-</plugins>
